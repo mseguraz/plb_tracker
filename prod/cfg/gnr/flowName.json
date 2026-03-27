@@ -1,0 +1,16 @@
+
+{
+    "gnr" : {"cdie_class" : {    
+                    "begin_atpg_f1" : ["atpg_comp_hvm_begin"],
+                    "srh_vccinf": ["SCN_SCAN_COMP_SRH_VCCINF"]
+                            }
+                        },
+    "dmr" : {"imh_class" : {
+                    "begin_atpg" : ["SCN_A_IMH_BGN_IMH"],
+                    "chk_cfc_f1": ["SCN_A_IMH_CHK_IMH_CFCIO_F1"]                  
+                            }
+            }
+}
+
+
+

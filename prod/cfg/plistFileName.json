@@ -1,0 +1,26 @@
+{
+    "gnr" : {"class" : {    
+                    "cdie" :{ 
+							"uccap" : ["iscan.class.hvm.compute_class_uccap.plist","MscnCdUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"],
+			        		"xccap" : ["iscan.class.hvm.compute_class_uccap.plist","MscnCdXCC","/POR_TP/CLASS_TP/EnvironmentFile_XCCAP.env"]
+			      			},     
+                    "iodie" :{ 
+			       	 		"uccap" :["iscan.class.hvm.io_class_uccap.plist","MscnIoUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"]
+			     			  },
+		    		"core": {
+			       		    "uccap" :["iscan.class.hvm.rwc_class_uccap.plist","MscnCoreUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"]
+			    			}
+                        }
+			},
+
+    "dmr" : {"class" : {
+                    "imh" : { "ucc" : ["scan_imh_class_uccap.plist","MRScnImhUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"],
+			      			  "uccx1": ["scan_imh_class_uccap.plist","MRScnImhUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCX1.env"]
+			    			},
+                    "cbb" : { "ucc": ["scn_imh_class_uccap.plist","MRScnCbbUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"],
+			      			  "uccx1": ["scn_imh_class_uccap.plist","MRScnCbbUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCX1.env"]
+                            }
+						}
+            }
+
+}

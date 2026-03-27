@@ -1,0 +1,18 @@
+
+{
+    "dmr" : {"class" : {
+                    "imh" :{ "uccx1":["/Modules/SCN_A_IMH/SCN_A_IMH.mtpl"],
+                             "uccap":["/Modules/SCN_A_IMH/SCN_A_IMH.mtpl"]
+                        },
+                    "cbb" :{ "uccx1":["/Modules/SCN_A_CBB/SCN_A_CBB.mtpl"],
+                             "uccap":["/Modules/SCN_A_CBB/SCN_A_CBB.mtpl"]
+                            },
+                    "pkgimh" :{ "uccx1":["/Modules/SCN_PKG_IMH/SCN_PKG_IMH.mtpl"],
+                                "uccap":["/Modules/SCN_PKG_IMH/SCN_PKG_IMH.mtpl"]
+                            },
+                    "pkgcbb" :{ "uccx1":["/Modules/SCN_PKG_CBB/SCN_PKG_CBB.mtpl"],
+                                "uccap":["/Modules/SCN_PKG_CBB/SCN_PKG_CBB.mtpl"]
+                            }
+                        }
+                }
+}

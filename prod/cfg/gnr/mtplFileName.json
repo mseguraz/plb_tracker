@@ -1,0 +1,19 @@
+
+{
+    "gnr" : {"class" : {    
+                    "cdie" : {"uccap" : ["/Modules/SCN_SCAN_COMP/SCN_SCAN_COMP.mtpl"]
+                             },
+                    "iodie" : {"uccap" :["/Modules/SCN_UNCORE_IO/SCN_UNCORE_IO.mtpl"]
+                              }
+                        }
+                },
+    "dmr" : {"class" : {
+                    "imh" :{ "uccx1":["/Modules/SCN_A_IMH/SCN_A_IMH.mtpl"],
+                             "ucc":["/Modules/SCN_A_IMH/SCN_A_IMH.mtpl"]
+                        },
+                    "cbb" :{ "uccx1":["/Modules/SCN_A_CBB/SCN_A_CBB.mtpl"],
+                             "ucc":["/Modules/SCN_A_CBB/SCN_A_CBB.mtpl"]
+                            }
+                        }
+                }
+}

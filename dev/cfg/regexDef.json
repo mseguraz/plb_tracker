@@ -1,0 +1,97 @@
+
+{
+    "gnr" : {"cdie_class" : {
+                            "module"  : "SCN",  
+                            "intance" : "DUTFlowItem ",
+                            "composite": "DUTFlow ",
+                            "setBin": ".",
+                            "startInstace": "Test",
+                            "startPlist" : "GlobalPList",
+		                    "plbcall": "PList",
+                            "process_map" : {
+                                    "ucc_hot" : [0, 0], "ucc_cold": [0, 1],
+                                    "xcc_hot": [1, 0], "xcc_cold": [1, 1],
+                                    "hcc_hot": [2, 0], "hcc_cold": [2, 1],
+                                    "lcc_hot": [3, 0], "lcc_cold": [3, 1]
+                                            },
+                            "DelimitersPosition":{
+                                                "chunkNumber" : 5,
+                                                "scanRegion" : 9,
+                                                "revision" :14,
+                                                "flavor" : 11,
+                                                "type" : 12,
+                                                "phase" : 14
+                                                },
+                            "skipPlist":["cold_preamble",
+                                        "reset_Mscn",
+                                        "reset_uncore",
+                                        "pre_precat_",
+                                        "clear_uncore",
+                                        "one_hundred_nops",
+                                        "safetyseal",
+                                        "safety_seal",
+                                        "end_gracefully",
+                                        "fivrshutdown",
+                                        "vbump_trigger",
+                                        "fivr7nm",
+                                        "bipre",
+                                        "bipost",
+                                        "grdt_tour",
+                                        "dummy",
+                                        "solout",
+                                        "tempreadmax_all",
+                                        "r0Hclk",
+                                        "r0clk",
+                                        "testend",
+                                        "ssnsetup",
+                                        "ssnend",
+                                        "testsetup",
+                                        "preprecats",
+                                        "cwf_stf_gid_clear",
+                                        "bgr_isolation",
+                                        "parfditd_tdr_ovrd",
+                                        "fivr_isolation",
+                                        "isolation",
+                                        "shutdown",
+                                        "scn_preprecat"
+                                        ]
+
+                            }
+                        },
+    "dmr" : {"imh_class" : {
+                            "module"  : "SCN",
+                            "intance" : "FlowItem",
+			    "composite": "Flow",
+                            "setBin": "_",
+                            "startInstace": "CSharpTest",
+                            "startPlist" : "PList",
+		                    "plbcall": "RefPList",	
+                            "process_map" : {
+                                    "ucc_hot" : [0, 0], "ucc_cold": [0, 1],
+                                    "xcc_hot": [1, 0], "xcc_cold": [1, 1],
+                                    "hcc_hot": [2, 0], "hcc_cold": [2, 1],
+                                    "lcc_hot": [3, 0], "lcc_cold": [3, 1]
+                                            },
+                            "DelimitersPosition":   {
+                                                "chunkNumber" : 2,
+                                                "scanRegion" : 8,
+                                                "revision" :6,
+                                                "flavor" : 10,
+                                                "type" : 11,
+                                                "phase" : 12
+                                                },
+                            "skipPlist":["ssnts_setup",
+                                        "_setup",
+                                        "_ssns",
+                                        "_ssne",
+                                        "_ssnte",
+                                        "_snoe_",
+                                        "_snos_",
+                                        "reset_uncore"
+
+                                        ]              
+                            }
+            }
+}
+
+

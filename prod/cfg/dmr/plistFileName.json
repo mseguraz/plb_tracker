@@ -1,0 +1,24 @@
+{
+    "dmr" : {"class" : {
+                    "imh" : { "uccap" : [["scan_imh_class_uccap.plist","MRScnImhUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"]],
+			      			            "uccx1": [["scan_imh_class_uccap.plist","MRScnImhUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCX1.env"]]
+			    			},
+                    "cbb" : { "uccap": [["scan_cbb_class_uccap.plist","MRScnCbbUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"],
+                                        ["scan600_cbb_class_uccap.plist","MRScnCbbUCC600","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"]],
+			      			            "uccx1": [["scan_cbb_class_uccap.plist","MRScnCbbUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCX1.env"],
+                                        ["scan600_cbb_class_uccap.plist","MRScnCbbUCC600","/POR_TP/CLASS_TP/EnvironmentFile_UCCX1.env"]]
+                            },
+                    "pkgimh" : { "uccap" : [["scan_imh_mcp_class_uccap.plist","MRScnImhUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"]],
+			      			               "uccx1": [["scan_imh_mcp_class_uccap.plist","MRScnImhUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCX1.env"]]
+			    			},
+                    "pkgcbb" : { "uccap": [["scan_cbb_class_uccap.plist","MRScnCbbUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"],
+                                           ["scan_cbb_mcp_class_uccap.plist","MRScnCbbUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"],
+                                           ["scan600_cbb_class_uccap.plist","MRScnCbbUCC600","/POR_TP/CLASS_TP/EnvironmentFile_UCCAP.env"]],
+			      			               "uccx1": [["scan_cbb_class_uccap.plist","MRScnCbbUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCX1.env"],
+                                           ["scan_cbb_mcp_class_uccap.plist","MRScnCbbUCC","/POR_TP/CLASS_TP/EnvironmentFile_UCCX1.env"],
+                                           ["scan600_cbb_class_uccap.plist","MRScnCbbUCC600","/POR_TP/CLASS_TP/EnvironmentFile_UCCX1.env"]]
+                               }                            
+						}
+            }
+
+}

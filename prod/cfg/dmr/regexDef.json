@@ -1,0 +1,224 @@
+
+{
+
+    "dmr" : {"imh_class" : {
+                            "module"  : "SCN",
+                            "intance" : "FlowItem",
+			    "composite": "Flow",
+                            "setBin": "_",
+                            "startInstace": "CSharpTest",
+                            "startPlist" : "PList",
+		            "plbcall": "RefPList",
+                            "process_map" : {
+                                    "ucc_hot" : [0, 0], "ucc_cold": [0, 1],
+                                    "xcc_hot": [1, 0], "xcc_cold": [1, 1],
+                                    "hcc_hot": [2, 0], "hcc_cold": [2, 1],
+                                    "lcc_hot": [3, 0], "lcc_cold": [3, 1]
+                                            },	
+                            "bypassPortRuleMap" : {
+                                        "COLD_BYPASS":{"hot":true,"cold":false},
+                                        "UCCAP_BYPASS":{"uccap": false,"uccx1": true,"uccx13dum":true,"uccap1s":true},
+                                        "UCCX1_BYPASS":{"uccap": true,"uccx1": false,"uccx13dum":true,"uccap1s":true}
+                                            },
+                            "DelimitersPosition":   {
+                                                "chunkNumber" : 2,
+                                                "scanRegion" : 8,
+                                                "revision" :6,
+                                                "flavor" : 10,
+                                                "type" : 11,
+                                                "phase" : 12
+                                                },
+                            "skipPlist":["ssnts_setup",
+                                        "_setup",
+                                        "_ssns",
+                                        "_ssne",
+                                        "_ssnte",
+                                        "_snoe_",
+                                        "_snos_",
+                                        "reset_uncore",
+                                        "mucc_off_sort",
+                                        "snots_",
+                                        "snnts_"
+
+                                        ],
+                            "topOffMap":{
+                                        "topDTS" :"ph7_dts",
+                                        "topFIVR" : "ph8_fivr",
+                                        "topPLL" :"ph9_pll"
+                                          
+                                        },
+                            "recipeMap":{
+                                        "atpg" : "stuckat_edt",
+                                        "trans" :"atspeed_edt",
+                                        "ca1tf" :"ca1tf_edt",
+                                        "ca2tf":"ca2tf_edt"
+                                                }              
+                },
+                "cbb_class" : {
+                                "module"  : "SCN",
+                                "intance" : "FlowItem",
+                                "composite": "Flow",
+                                "setBin": "_",
+                                "startInstace": "CSharpTest",
+                                "startPlist" : "PList",
+                                "plbcall": "RefPList",
+                                "process_map" : {
+                                    "ucc_hot" : [0, 0], "ucc_cold": [0, 1],
+                                    "xcc_hot": [1, 0], "xcc_cold": [1, 1],
+                                    "hcc_hot": [2, 0], "hcc_cold": [2, 1],
+                                    "lcc_hot": [3, 0], "lcc_cold": [3, 1]
+                                            },        	
+                                "bypassPortRuleMap" : {
+                                        "COLD_BYPASS":{"hot":true,"cold":false},
+                                        "UCCAP_BYPASS":{"uccap": false,"uccx1": true,"uccx13dum":true,"uccap1s":true},
+                                        "UCCX1_BYPASS":{"uccap": true,"uccx1": false,"uccx13dum":true,"uccap1s":true}
+                                                },
+                                "DelimitersPosition":   {
+                                                "chunkNumber" : 2,
+                                                "scanRegion" : 8,
+                                                "revision" :6,
+                                                "flavor" : 10,
+                                                "type" : 11,
+                                                "phase" : 12
+                                                },
+                                "skipPlist":["ssnts_setup",
+                                        "_setup",
+                                        "_ssns",
+                                        "_ssne",
+                                        "_ssnte",
+                                        "_snoe_",
+                                        "_snos_",
+                                        "reset_uncore",
+                                        "mucc_off_sort",
+                                        "snots_",
+                                        "snnts_"
+
+                                        ] ,
+
+                                "topOffMap":{
+                                        "topDTS" :"ph7_dts",
+                                        "topFIVR" :"ph8_fivr",
+                                        "topPLL" :"ph9_pll"
+                                        
+                                        },
+                                "recipeMap":{
+                                        "atpg" : "stuckat_edt",
+                                        "trans" :"atspeed_edt",
+                                        "ca1tf" :"ca1tf_edt",
+                                        "ca2tf":"ca2tf_edt"
+                                                }
+                        
+                             
+                },
+                "pkgimh_class" : {
+                            "module"  : "SCN",
+                            "intance" : "FlowItem",
+			    "composite": "Flow",
+                            "setBin": "_",
+                            "startInstace": "CSharpTest",
+                            "startPlist" : "PList",
+		            "plbcall": "RefPList",
+                            "process_map" : {
+                                    "ucc_hot" : [0, 0], "ucc_cold": [0, 1],
+                                    "xcc_hot": [1, 0], "xcc_cold": [1, 1],
+                                    "hcc_hot": [2, 0], "hcc_cold": [2, 1],
+                                    "lcc_hot": [3, 0], "lcc_cold": [3, 1]
+                                            },	
+                            "bypassPortRuleMap" : {
+                                        "COLD_BYPASS":{"hot":true,"cold":false},
+                                        "UCCAP_BYPASS":{"uccap": false,"uccx1": true,"uccx13dum":true,"uccap1s":true},
+                                        "UCCX1_BYPASS":{"uccap": true,"uccx1": false,"uccx13dum":true,"uccap1s":true}
+                                            },
+                            "DelimitersPosition":   {
+                                                "chunkNumber" : 2,
+                                                "scanRegion" : 8,
+                                                "revision" :6,
+                                                "flavor" : 10,
+                                                "type" : 11,
+                                                "phase" : 12
+                                                },
+                            "skipPlist":["ssnts_setup",
+                                        "_setup",
+                                        "_ssns",
+                                        "_ssne",
+                                        "_ssnte",
+                                        "_snoe_",
+                                        "_snos_",
+                                        "reset_uncore",
+                                        "mucc_off_sort",
+                                        "snots_",
+                                        "snnts_"
+
+                                        ],
+                            "topOffMap":{
+                                        "topDTS" :"ph7_dts",
+                                        "topFIVR" : "ph8_fivr",
+                                        "topPLL" :"ph9_pll"
+                                        
+                                        },
+                            "recipeMap":{
+                                        "atpg" : "stuckat_edt",
+                                        "trans" :"atspeed_edt",
+                                        "ca1tf" :"ca1tf_edt",
+                                        "ca2tf":"ca2tf_edt"
+                                                }
+                }, 
+                                                
+                "pkgcbb_class" : {
+                                "module"  : "SCN",
+                                "intance" : "FlowItem",
+                                "composite": "Flow",
+                                "setBin": "_",
+                                "startInstace": "CSharpTest",
+                                "startPlist" : "PList",
+                                "plbcall": "RefPList",
+                                "process_map" : {
+                                    "ucc_hot" : [0, 0], "ucc_cold": [0, 1],
+                                    "xcc_hot": [1, 0], "xcc_cold": [1, 1],
+                                    "hcc_hot": [2, 0], "hcc_cold": [2, 1],
+                                    "lcc_hot": [3, 0], "lcc_cold": [3, 1]
+                                            },	
+                                "bypassPortRuleMap" : {
+                                        "COLD_BYPASS":{"hot":true,"cold":false},
+                                        "UCCAP_BYPASS":{"uccap": false,"uccx1": true,"uccx13dum":true,"uccap1s":true},
+                                        "UCCX1_BYPASS":{"uccap": true,"uccx1": false,"uccx13dum":true,"uccap1s":true}
+                                                },
+                                "DelimitersPosition":   {
+                                                "chunkNumber" : 2,
+                                                "scanRegion" : 8,
+                                                "revision" :6,
+                                                "flavor" : 10,
+                                                "type" : 11,
+                                                "phase" : 12
+                                                },
+                                "skipPlist":["ssnts_setup",
+                                        "_setup",
+                                        "_ssns",
+                                        "_ssne",
+                                        "_ssnte",
+                                        "_snoe_",
+                                        "_snos_",
+                                        "reset_uncore",
+                                        "mucc_off_sort",
+                                        "snots_",
+                                        "snnts_"
+
+                                        ] ,
+
+                                "topOffMap":{
+                                        "topDTS" :"ph7_dts",
+                                        "topFIVR" : "ph8_fivr",
+                                        "topPLL" :"ph9_pll"
+                                        
+                                        },
+                                "recipeMap":{
+                                        "atpg" : "stuckat_edt",
+                                        "trans" :"atspeed_edt",
+                                        "ca1tf" :"ca1tf_edt",
+                                        "ca2tf":"ca2tf_edt"
+                                }
+                            }
+            }
+}
+
+

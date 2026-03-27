@@ -1,0 +1,38 @@
+
+{
+    "gnr" : {"cdie_class" : {    
+                    "plist" : ["GlobalPList"],
+		            "plb": ["PList"]	    
+                            },
+	    "iodie_class" : {    
+                    "plist" : "GlobalPList",
+		            "plbcall": "PList"	    
+                            },
+	    "DelimitersPosition":{
+                            "chunkNumber" : 5,
+                            "scanRegion" : 8,
+                            "revision" :13,
+                            "flavor" : 10,
+			                "type" : 11,
+                            "phase" : 13
+                            }
+                        },
+    "dmr" : {"imh_class" : {
+                    "plist" : "PList",
+		            "plbcall": "RefPList"	                 
+                            },
+	        "cbb_class" : {
+                    "plist" : "PList",
+		            "plb": "RefPList"	                 
+                            },
+	    "DelimitersPosition":   {
+			                "chunkNumber" : 2,
+                            "scanRegion" : 8,
+                            "revision" :6,
+                            "flavor" : 10,
+			                "type" : 11,
+                            "phase" : 12
+                            }
+
+            }
+}

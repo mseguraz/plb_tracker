@@ -1,0 +1,108 @@
+
+{
+
+    "dmr" : {"imh_class" : {
+                    "bgn_imh_x_f1" : ["SCN_A_IMH_BGN_IMH"],
+
+                    "srh_imh_fixdige_f1": ["SCN_A_IMH_SRH_IMH_FIXDIGE_F1"],
+                    "srh_imh_fixdige_f2": ["SCN_A_IMH_SRH_IMH_FIXDIGE_F2"],
+                    "srh_imh_fixdigemio1_f1": ["SCN_A_IMH_SRH_IMH_FIXDIGMIO1_F1"],
+                    "srh_imh_cfcio_f1": ["SCN_A_IMH_SRH_IMH_CFCIO_F1"],
+                    "srh_imh_cfcio_f2": ["SCN_A_IMH_SRH_IMH_CFCIO_F2"],
+                    "srh_imh_cfcio_f3": ["SCN_A_IMH_SRH_IMH_CFCIO_F3"],
+                    "srh_imh_cfcio_f4": ["SCN_A_IMH_SRH_IMH_CFCIO_F4"],
+                    "srh_imh_cfcmem_f1": ["SCN_A_IMH_SRH_IMH_CFCMEM_F1"],
+                    "srh_imh_cfcmem_f2": ["SCN_A_IMH_SRH_IMH_CFCMEM_F2"],
+                    "srh_imh_cfcmem_f3": ["SCN_A_IMH_SRH_IMH_CFCMEM_F3"],
+                    "srh_imh_cfcmem_f4": ["SCN_A_IMH_SRH_IMH_CFCMEM_F4"],
+                    "srh_imh_fixdigw_f1": ["SCN_A_IMH_SRH_IMH_FIXDIGW_F1"],
+                    "srh_imh_fixdigw_f2": ["SCN_A_IMH_SRH_IMH_FIXDIGW_F2"],
+                    "srh_imh_fixdigemio3_f1": ["SCN_A_IMH_SRH_IMH_FIXDIGMIO3_F1"],
+                    "srh_imh_fixdigemio4_f1": ["SCN_A_IMH_SRH_IMH_FIXDIGMIO4_F1"],
+
+                    "chk_imh_fixdige_f1": ["SCN_A_IMH_CHK_IMH_FIXDIGE_F1"],
+                    "chk_imh_fixdige_f2": ["SCN_A_IMH_CHK_IMH_FIXDIGE_F2"],
+                    "chk_imh_fixdigw_f1": ["SCN_A_IMH_CHK_IMH_FIXDIGW_F1"],
+                    "chk_imh_fixdigw_f2": ["SCN_A_IMH_CHK_IMH_FIXDIGW_F2"],
+                    "chk_imh_fixdigemio1_f1": ["SCN_A_IMH_CHK_IMH_FIXDIGMIO1_F1"],
+                    "chk_imh_fixdigemio3_f1": ["SCN_A_IMH_CHK_IMH_FIXDIGMIO3_F1"],
+                    "chk_imh_fixdigemio4_f1": ["SCN_A_IMH_CHK_IMH_FIXDIGMIO4_F1"],
+                    "chk_imh_cfcmem_f1": ["SCN_A_IMH_CHK_IMH_CFCMEM_F1"],
+                    "chk_imh_cfcmem_f2": ["SCN_A_IMH_CHK_IMH_CFCMEM_F2"],                   
+                    "chk_imh_cfcmem_f4": ["SCN_A_IMH_CHK_IMH_CFCMEM_F4"],
+                    "chk_imh_cfcio_f1": ["SCN_A_IMH_CHK_IMH_CFCIO_F1"],
+                    "chk_imh_cfcio_f2": ["SCN_A_IMH_CHK_IMH_CFCIO_F2"],                    
+                    "chk_imh_cfcio_f4": ["SCN_A_IMH_CHK_IMH_CFCIO_F4"],
+
+                    "vmax_imh_fixdige_f1": ["SCN_A_IMH_VMAX_IMH_FIXDIGE_F1"],
+                    "vmax_imh_fixdigw_f1": ["SCN_A_IMH_VMAX_IMH_FIXDIGW_F1"],
+                    "vmax_imh_fixdigmio1_f1": ["SCN_A_IMH_VMAX_IMH_FIXDIGMIO1_F1"],
+                    "vmax_imh_fixdigmio4_f1": ["SCN_A_IMH_VMAX_IMH_FIXDIGMIO4_F1"],
+                    "vmax_imh_cfcmem_f1": ["SCN_A_IMH_VMAX_IMH_CFCMEM_F1"],
+                    "vmax_imh_cfcio_f1": ["SCN_A_IMH_VMAX_IMH_CFCIO_F1"],
+
+                    "end_imh_x_x": ["SCN_A_IMH_END"]
+
+                  
+                            },
+             "cbb_class" : {
+
+                    "bgn_cbb_x_f1" : ["SCN_A_CBB_BGN_CBB"],
+                    "srh_cbb_ia_f1": ["SCN_A_CBB_SRH_CBB_IA_F1"],
+                    "srh_cbb_ia_f2": ["SCN_A_CBB_SRH_CBB_IA_F2"],
+                    "srh_cbb_ia_f3": ["SCN_A_CBB_SRH_CBB_IA_F3"],
+                    "srh_cbb_ia_f4": ["SCN_A_CBB_SRH_CBB_IA_F4"],
+                    "srh_cbb_ia_f5": ["SCN_A_CBB_SRH_CBB_IA_F5"],
+                    "srh_cbb_ia_f6": ["SCN_A_CBB_SRH_CBB_IA_F6"],
+                    "srh_cbb_ia_f7": ["SCN_A_CBB_SRH_CBB_IA_F7"],
+                    "srh_cbb_amx_f1": ["SCN_A_CBB_SRH_CBB_AMX_F1"],
+                    "srh_cbb_amx_f2": ["SCN_A_CBB_SRH_CBB_AMX_F2"],
+                    "srh_cbb_amx_f3": ["SCN_A_CBB_SRH_CBB_AMX_F3"],
+                    "srh_cbb_amx_f4": ["SCN_A_CBB_SRH_CBB_AMX_F4"],
+                    "srh_cbb_amx_f5": ["SCN_A_CBB_SRH_CBB_AMX_F5"],
+                    "srh_cbb_amx_f6": ["SCN_A_CBB_SRH_CBB_AMX_F6"],
+                    "srh_cbb_amx_f7": ["SCN_A_CBB_SRH_CBB_AMX_F7"],
+                    "srh_cbb_ring_f1": ["SCN_A_CBB_SRH_CBB_RING_F1"],
+                    "srh_cbb_ring_f2": ["SCN_A_CBB_SRH_CBB_RING_F2"],
+                    "srh_cbb_ring_f3": ["SCN_A_CBB_SRH_CBB_RING_F3"],
+                    "srh_cbb_ring_f4": ["SCN_A_CBB_SRH_CBB_RING_F4"],
+
+                    "chk_cbb_ia_f1": ["SCN_A_CBB_CHK_CBB_IA_F1"],
+                    "chk_cbb_ia_f4": ["SCN_A_CBB_CHK_CBB_IA_F4"],
+                    "chk_cbb_ia_f7": ["SCN_A_CBB_CHK_CBB_IA_F7"],
+                    "chk_cbb_amx_f1": ["SCN_A_CBB_CHK_CBB_AMX_F1"],
+                    "chk_cbb_amx_f4": ["SCN_A_CBB_CHK_CBB_AMX_F4"],
+                    "chk_cbb_amx_f7": ["SCN_A_CBB_CHK_CBB_AMX_F7"],
+                    "chk_cbb_ring_f1": ["SCN_A_CBB_CHK_CBB_RING_F1"],
+                    "chk_cbb_ring_f2": ["SCN_A_CBB_CHK_CBB_RING_F2"],
+
+                    "vmax_cbb_ia_f1": ["SCN_A_CBB_VMAX_CBB_IA_F1"],
+                    "vmax_cbb_amx_f1": ["SCN_A_CBB_VMAX_CBB_AMX_F1"],
+                    "vmax_cbb_ring_f1": ["SCN_A_CBB_VMAX_CBB_RING_F1"],
+
+                    "end_cbb_x_x": ["SCN_A_CBB_END_CBB"]                
+                    
+
+                             },
+            "pkgimh_class" : {
+                    "srh_pkgimh_inf_f1": ["SCN_PKG_IMH_SRH_PKG_INF_F1"],
+
+                    "chk_pkgimh_inf_f1": ["SCN_PKG_IMH_CHK_PKG_INF_F1"],
+
+                    "vmax_pkgimh_inf_f1": ["SCN_PKG_IMH_VMAX_PKG_INF_F1"]
+
+
+                             },
+            "pkgcbb_class" : {
+                    "srh_pkgcbb_inf_f1": ["SCN_PKG_CBB_SRH_PKG_INF_F1"],
+
+                    "chk_pkgcbb_inf_f1": ["SCN_PKG_CBB_CHK_PKG_INF_F1"],
+
+                    "vmax_pkgcbb_inf_f1": ["SCN_PKG_CBB_VMAX_PKG_INF_F1"]
+                            }
+
+            }
+}
+
+
+

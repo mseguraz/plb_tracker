@@ -1,0 +1,28 @@
+
+{
+
+    "dmr" : {"imh_class" : {
+                    "plist" : "PList",
+		            "plbcall": "RefPList"	                 
+                            },
+	        "cbb_class" : {
+                    "plist" : "PList",
+		            "plb": "RefPList"	                 
+                            },
+
+	        "DelimitersPosition":   {
+			                "chunkNumber" : 2,
+                            "scanRegion" : 8,
+                            "revision" :6,
+                            "flavor" : 10,
+			                "type" : 11,
+                            "phase" : 12
+                            },
+            "NameSize" : {
+                            "longname":13,
+                            "shortname": 12
+                        }
+
+
+            }
+}
